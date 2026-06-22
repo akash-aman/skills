@@ -4,3 +4,6 @@
 [submodule "repos/clean-go-article"]
 	path = repos/clean-go-article
 	url = git@github.com:Pungyeon/clean-go-article.git
+[submodule "repos/clean-code-php"]
+	path = repos/clean-code-php
+	url = git@github.com:piotrplenik/clean-code-php.git
