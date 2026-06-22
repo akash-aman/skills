@@ -1,18 +1,33 @@
 [submodule "repos/caveman"]
 	path = repos/caveman
 	url = https://github.com/juliusbrussee/caveman.git
+	branch = main
+	singleBranch = true
 [submodule "repos/clean-go-article"]
 	path = repos/clean-go-article
 	url = git@github.com:Pungyeon/clean-go-article.git
+	branch = master
+	singleBranch = true
 [submodule "repos/clean-code-php"]
 	path = repos/clean-code-php
 	url = git@github.com:piotrplenik/clean-code-php.git
+	branch = master
+	singleBranch = true
 [submodule "repos/clean-code-javascript"]
 	path = repos/clean-code-javascript
 	url = git@github.com:ryanmcdermott/clean-code-javascript.git
+	branch = master
+	singleBranch = true
 [submodule "repos/clean-code-typescript"]
 	path = repos/clean-code-typescript
 	url = git@github.com:labs42io/clean-code-typescript.git
+	branch = main
+	singleBranch = true
 [submodule "repos/clean-code-python"]
 	path = repos/clean-code-python
 	url = git@github.com:zedr/clean-code-python.git
+	branch = master
+	singleBranch = true
+[submodule "repos/open-design"]
+	path = repos/open-design
+	url = git@github.com:nexu-io/open-design.git
