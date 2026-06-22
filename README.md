@@ -18,14 +18,22 @@ from upstream repos under [`repos/`](repos/) (git submodules).
 
 ```sh
 git clone --recurse-submodules https://github.com/akash-aman/skills.git ~/.skills
-ln -s ~/.skills ~/.claude/skills      # Claude Code (or ~/.copilot/skills, etc.)
 ```
 
-Already cloned? Pull the submodule content:
+Symlink the repo into the personal-skills folder your tool scans (each parent
+must exist; the skills dir must not pre-exist):
 
 ```sh
-git submodule update --init --recursive
+ln -s ~/.skills ~/.claude/skills       # Claude Code & Claude Desktop
+ln -s ~/.skills ~/.commandcode/skills  # CommandCode
+ln -s ~/.skills ~/.copilot/skills      # GitHub Copilot CLI & VS Code (Copilot)
+ln -s ~/.skills ~/.agents/skills       # Cross-tool standard (Copilot CLI, VS Code, Codex, …)
 ```
+
+On Windows (PowerShell, as admin), e.g. for Claude:
+`New-Item -ItemType SymbolicLink -Path "$HOME\.claude\skills" -Target "$HOME\.skills"`
+
+Already cloned without submodules? Pull the content: `git submodule update --init --recursive`.
 
 Then invoke a pack directly, e.g. `/design` or `/cleancode`.
 
