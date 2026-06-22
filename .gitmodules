@@ -1,3 +1,6 @@
 [submodule "repos/caveman"]
 	path = repos/caveman
 	url = https://github.com/juliusbrussee/caveman.git
+[submodule "repos/clean-go-article"]
+	path = repos/clean-go-article
+	url = git@github.com:Pungyeon/clean-go-article.git
