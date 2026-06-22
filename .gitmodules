@@ -31,3 +31,5 @@
 [submodule "repos/open-design"]
 	path = repos/open-design
 	url = git@github.com:nexu-io/open-design.git
+	branch = main
+	singleBranch = true
