@@ -13,3 +13,6 @@
 [submodule "repos/clean-code-typescript"]
 	path = repos/clean-code-typescript
 	url = git@github.com:labs42io/clean-code-typescript.git
+[submodule "repos/clean-code-python"]
+	path = repos/clean-code-python
+	url = git@github.com:zedr/clean-code-python.git
