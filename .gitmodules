@@ -10,3 +10,6 @@
 [submodule "repos/clean-code-javascript"]
 	path = repos/clean-code-javascript
 	url = git@github.com:ryanmcdermott/clean-code-javascript.git
+[submodule "repos/clean-code-typescript"]
+	path = repos/clean-code-typescript
+	url = git@github.com:labs42io/clean-code-typescript.git
