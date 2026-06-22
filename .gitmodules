@@ -7,3 +7,6 @@
 [submodule "repos/clean-code-php"]
 	path = repos/clean-code-php
 	url = git@github.com:piotrplenik/clean-code-php.git
+[submodule "repos/clean-code-javascript"]
+	path = repos/clean-code-javascript
+	url = git@github.com:ryanmcdermott/clean-code-javascript.git
