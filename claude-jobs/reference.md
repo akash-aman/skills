@@ -22,7 +22,6 @@ A job is one TOML file in `~/.config/claude/jobs/`. Required: `schedule`, `accou
 | `keep_window` | `always`, `on_error`, `never` | `on_error` |
 | `catch_up` | Run once after a slot missed while the Mac was off | `true` |
 | `enabled` | On/off | `true` (new jobs: write `false`) |
-| `hosts` | Machines it runs on (`hostname -s`), e.g. `["Akashs-MacBook-Pro"]`. Job files are shared between the Mac and the server, so set this to avoid double runs | every machine |
 
 ## Placeholders in `prompt` and `allowed_tools`
 
