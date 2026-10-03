@@ -13,6 +13,7 @@ from upstream repos under [`repos/`](repos/) (git submodules).
 | [`design/`](design/) | `/design` | Build UI artifacts — landing pages, decks, dashboards, posters, mobile apps. Routes across 109 templates, 155 skills, 150 brand design-systems, and craft rules from [open-design](https://github.com/nexu-io/open-design). |
 | [`cleancode/`](cleancode/) | `/cleancode` | Clean Code guidance and refactors per language: JavaScript, TypeScript, Python, PHP, Go. |
 | [`caveman/`](caveman/) | `/caveman` | Token-efficient communication, commits, and reviews. |
+| [`claude-jobs/`](claude-jobs/) | `/claude-jobs` | Manage scheduled Claude jobs from any session: list, run now, read results, create, edit, enable/disable. Needs the `claude-jobs` CLI from [mac-dotfiles](https://github.com/akash-aman/mac-dotfiles). |
 
 ## Usage
 
