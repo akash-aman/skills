@@ -1,7 +1,7 @@
 ---
 name: claude-jobs
-description: "Manage scheduled Claude jobs (the claude-jobs CLI): list, run now, read results, create, edit, enable/disable or remove jobs that run on a cron schedule as Claude sessions in tmux on the work (cw) or personal (ch) account. Use when the user mentions scheduled/recurring/cron Claude jobs, 'run my <job> now', 'make a job that…every day/weekday at…', job reports, or /claude-jobs."
-argument-hint: "[list|run|logs|show|new|edit|enable|disable|remove] [job]"
+description: "list · run <job> · logs <job> · show <job> · new · edit <job> · enable/disable <job> · remove <job>. Scheduled Claude jobs (cron, run as tmux sessions on cw/ch). Use for scheduled/recurring/cron Claude jobs, 'run my <job> now', 'make a job that…every day at…', job reports."
+argument-hint: "list | run <job> | logs <job> | show <job> | new | edit <job> | enable <job> | disable <job> | remove <job>"
 ---
 
 # claude-jobs
