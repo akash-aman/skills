@@ -14,6 +14,7 @@ from upstream repos under [`repos/`](repos/) (git submodules).
 | [`cleancode/`](cleancode/) | `/cleancode` | Clean Code guidance and refactors per language: JavaScript, TypeScript, Python, PHP, Go. |
 | [`caveman/`](caveman/) | `/caveman` | Token-efficient communication, commits, and reviews. |
 | [`claude-jobs/`](claude-jobs/) | `/claude-jobs` | Manage scheduled Claude jobs from any session: list, run now, read results, create, edit, enable/disable. Needs the `claude-jobs` CLI from [mac-dotfiles](https://github.com/akash-aman/mac-dotfiles). |
+| [`claude-prs/`](claude-prs/) | `/claude-prs` | Pending PR reviews: list, show drafted feedback, publish/approve, discard, review a PR now. Needs the `claude-prs` CLI from [mac-dotfiles](https://github.com/akash-aman/mac-dotfiles). |
 
 ## Usage
 
